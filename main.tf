@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "SAGARinfra" {
 	ami = "ami-0b5eea76982371e91" 
-	instance_type = "t2.nano"
+	instance_type = "t2.small"
 }
